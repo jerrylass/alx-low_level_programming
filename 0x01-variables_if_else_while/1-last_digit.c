@@ -3,7 +3,9 @@
 #include <time.h>
 /**
  * main - Program to assign random number to variable
+ *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
@@ -12,9 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	printf("Last digit of %d is", n);
-	
 	num = n % 10;
 	if (num > 5)
 	{
