@@ -1,1 +1,1 @@
-this is a readme file for debugging task
+this is a readme file for c debugging
